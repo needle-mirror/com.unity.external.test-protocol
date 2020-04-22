@@ -1,7 +1,7 @@
 {
   "name": "com.unity.external.test-protocol",
   "displayName": "Unity Test Protocol",
-  "version": "1.0.0-preview",
+  "version": "1.0.1-preview",
   "unity": "2019.2",
   "description": "Unity Test Protocol (UTP) - language automation speaks at unity",
   "dependencies": {
@@ -12,10 +12,12 @@
     "utp",
     "unity test protocol"
   ],
+  "upmCi": {
+    "footprint": "bb2a7fc10e72c6c83c8cebff368d8604be34ad84"
+  },
   "repository": {
-    "footprint": "8c2704d6e5d7d33f18330302ef52a72ba980e51d",
     "type": "git",
     "url": "https://github.cds.internal.unity3d.com/unity/com.unity.external.test-protocol.git",
-    "revision": "b34b124b91a459e0fe5f1e3fa6481ec739997563"
+    "revision": "3d4a9f00941e1ed44474250d102bbac4989c5e9f"
   }
 }

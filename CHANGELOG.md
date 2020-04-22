@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.1] - 2020-04-22
+
+Changed tests assembly name to avoid collisions
+
 ## [1.0.0] - 2020-03-31
 
 Shipping source code together with tests instead of dll
