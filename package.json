@@ -1,23 +1,26 @@
 {
   "name": "com.unity.external.test-protocol",
   "displayName": "Unity Test Protocol",
-  "version": "1.0.1-preview",
-  "unity": "2019.2",
+  "version": "2.0.0-exp.1",
+  "unity": "2021.3",
   "description": "Unity Test Protocol (UTP) - language automation speaks at unity",
   "dependencies": {
     "com.unity.nuget.newtonsoft-json": "2.0.0-preview"
   },
-  "type": "library",
   "keywords": [
     "utp",
     "unity test protocol"
   ],
-  "upmCi": {
-    "footprint": "bb2a7fc10e72c6c83c8cebff368d8604be34ad84"
+  "_upm": {
+    "changelog": "Fix package signing issue"
   },
+  "upmCi": {
+    "footprint": "af2c002a68c042843cae6497c19a4597da2736c4"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.external.test-protocol@2.0/manual/index.html",
   "repository": {
-    "type": "git",
     "url": "https://github.cds.internal.unity3d.com/unity/com.unity.external.test-protocol.git",
-    "revision": "3d4a9f00941e1ed44474250d102bbac4989c5e9f"
+    "type": "git",
+    "revision": "f71fc5ebd777c0b29f6652c6be31f7e4ebe0dacd"
   }
 }

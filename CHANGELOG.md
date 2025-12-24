@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.0-exp.1] - 2025-12-24
+
+Fix package signing issue
+
 ## [1.0.1] - 2020-04-22
 
 Changed tests assembly name to avoid collisions
