@@ -30,8 +30,23 @@ namespace Unity.TestProtocol
             data["time"] = GetUtcNowMs();
             data["phase"] = phase;
             data["version"] = kProtocolVersion;
-            data["processId"] = Process.GetCurrentProcess().Id;
+            data["processId"] = s_CurrentProcessId;
             data["errors"] = new List<string>();
+        }
+
+        static readonly int s_CurrentProcessId = GetCurrentProcessId();
+
+        static int GetCurrentProcessId()
+        {
+            try
+            {
+                return Process.GetCurrentProcess().Id;
+            }
+            catch (PlatformNotSupportedException)
+            {
+                // System.Diagnostics.Process is not supported on some platforms, such as the web.
+                return 0;
+            }
         }
 
         public Message(IDictionary messageData)
